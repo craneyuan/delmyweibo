@@ -15,7 +15,7 @@ s.onload = function () {
     // 删除从现在到3年前的所有微博   
     var beforeYear = 3;
     // 每个月最大微博数量
-    var monthMaxNum = 100;
+    var monthMaxNum = 50;
     var date = new Date().toLocaleDateString().split('/');
     var year = Number(date[0]);
     var month = Number(date[1]);
@@ -50,10 +50,10 @@ s.onload = function () {
                         $('a[action-type="fl_menu"]')[0].click();
                         $('a[title="删除此条微博"]')[0].click();
                         $('a[action-type="ok"]')[0].click();
-                    }, 1000 * k);
+                    }, 300 * k);
                 }
             }
-        })(date), (i*10 + j) * 3000);
+        })(date), (i*12 + j) * monthMaxNum*300);
     }
 }
 document.head.appendChild(s);
