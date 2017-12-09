@@ -4,7 +4,7 @@
 // @version             0.4
 // @description         清空您发过的所有微博
 // @author              crane-yuan
-// @match               http://weibo.com/p/*
+// @match               https://weibo.com/p/*
 // @require             http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.2.js
 // @grant               none
 // @compatible         firefox 测试通过
