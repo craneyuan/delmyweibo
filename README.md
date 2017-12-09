@@ -6,7 +6,7 @@
 
 ### greasemonkey插件方式
 - 添加这个脚本到[greasemonkey](https://greasyfork.org/zh-CN)；
- - [新浪微博一键清空](https://greasyfork.org/zh-CN/scripts/25697-%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E4%B8%80%E9%94%AE%E6%B8%85%E7%A9%BA)
+ - [新浪微博一键清空](https://greasyfork.org/zh-CN/scripts/25697-新浪微博一键清空)
 - 登录上自己的新浪微博账号，点击“我的主页”即可。
 
 ### 手动方式
@@ -14,7 +14,7 @@
 - 然后打开在Firefox（或者Google Chrome）下的js控制台，复制js代码到控制台，运行即可。
 
 ## 演示动画
-![删除微博脚本演示动画](http://7xsd89.com1.z0.glb.clouddn.com/%E5%88%A0%E9%99%A4%E5%BE%AE%E5%8D%9A%E6%BC%94%E7%A4%BA%E5%8A%A8%E7%94%BB.gif)
+![删除微博脚本演示动画](http://7xsd89.com1.z0.glb.clouddn.com/删除微博演示动画.gif)
 
 ## 日志
 - #2016-11-9，修复「删除微博脚本」中settimeout中循环执行函数问题，最终采用「闭包」解决。
@@ -22,3 +22,4 @@
 - #2016-11-10，「删除微博脚本」单独抽出来作为一个独立的项目进行开发。
 - #2016-12-15，添加「删除微博脚本」到油猴脚本列表中。
 - #2016-12-16，优化删除微博的方式，从setTimeout方式改为setInterval。
+- #2017-12-09，优化匹配规则，从http升级为https。
